@@ -1,0 +1,62 @@
+.container{
+    border: 1px solid white;
+    width:100vw;
+   }
+   .header{
+       border: 1px solid white;
+       display: flex;
+       padding: 10px;
+   }
+   .university{
+       flex: 1;
+       margin-left: 10px;
+   }
+   .home{
+       flex:2;
+       margin-right: 20px;
+   }
+   .home span{
+       margin-left: 20px;
+   }
+   .content{
+       display: inline-flex;
+       padding: 10px;
+   }
+   .product-img{
+     flex: 1;
+   }
+   .projectdetails{
+       flex: 2;
+       margin-left: 400px;
+   }
+   .footer{
+       border: 1px solid white;
+       padding: 10px;
+   
+   }
+   .logo{
+       text-align: right;
+       
+   }
+   .logo i{
+       text-align: right;
+       margin-right: 20px;
+   }
+   @media (max-width: 800px){ 
+       .home { 
+           display: none; 
+       } 
+       .content{ 
+           display: block; 
+       } 
+       .productdetails{ 
+           margin-left: 0px; 
+       } 
+       .footer{ 
+           display: none; 
+       } 
+       .logo{ 
+           text-align: center; 
+       } 
+   }
+   
